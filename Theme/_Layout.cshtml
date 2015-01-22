@@ -1,0 +1,130 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Pinta: Painting Made Simple!</title>
+
+    <link href="/theme/style.css" rel="stylesheet"/>
+</head>
+
+<body>
+    <div id="ContainerDiv">
+        <div id="content-container">
+
+            <div id="HeaderDiv">
+            </div>
+
+            <div id="topmenu">
+                <ul>
+                    <li>
+                        <table cellpadding="3">
+                            <tr>
+                                <td>
+                                    <a href="~/contact">
+                                        <img src="~/theme/images/email.png" alt="Contact" height="16" width="16" />
+                                    </a>
+                                </td>
+                                <td><a href="~/contact">Contact</a></td>
+                            </tr>
+                        </table>
+                    </li>
+                    <li>
+                        <table cellpadding="3">
+                            <tr>
+                                <td>
+                                    <a href="~/contribute">
+                                        <img src="~/theme/images/wrench_orange.png" alt="Contribute" height="16" width="16" />
+                                    </a>
+                                </td>
+                                <td><a href="~/contribute">Contribute</a></td>
+                            </tr>
+                        </table>
+                    </li>
+                    <li>
+                        <table cellpadding="3">
+                            <tr>
+                                <td>
+                                    <a href="~/howto">
+                                        <img src="~/theme/images/help.png" alt="HowTo" height="16" width="16" />
+                                    </a>
+                                </td>
+                                <td><a href="~/howto">HowTo</a></td>
+                            </tr>
+                        </table>
+                    </li>
+                    <li>
+                        <table cellpadding="3">
+                            <tr>
+                                <td>
+                                    <a href="~/releases">
+                                        <img src="~/theme/images/package.png" alt="Download" height="16" width="16" />
+                                    </a>
+                                </td>
+                                <td><a href="~/releases">Download</a></td>
+                            </tr>
+                        </table>
+                    </li>
+                    <li>
+                        <table cellpadding="3">
+                            <tr>
+                                <td>
+                                    <a href="~/news">
+                                        <img src="~/theme/images/newspaper.png" alt="News" height="16" width="16" />
+                                    </a>
+                                </td>
+                                <td><a href="~/news">News</a></td>
+                            </tr>
+                        </table>
+                    </li>
+                    <li>
+                        <table cellpadding="3">
+                            <tr>
+                                <td>
+                                    <a href="~/">
+                                        <img src="~/theme/images/house.png" alt="Home" height="16" width="16" />
+                                    </a>
+                                </td>
+                                <td><a href="~/">Home</a></td>
+                            </tr>
+                        </table>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="MainDiv">
+                <div id="MainHeaderDiv">
+                    <!-- Used for layout purposes only -->
+                </div>
+
+                @RenderBody()
+
+                <div class="clearer">
+                </div>
+
+                <div id="MainFooterDiv">
+                    <hr />
+                    Pinta is a free application (Personal, Education and Commercial) under the terms of the <a href="http://en.wikipedia.org/wiki/MIT_License">MIT X11 License</a>.
+                </div>
+
+            </div>
+
+            <div class="content-bottom">
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+                var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+                document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+
+    <script type="text/javascript">
+            try {
+                var pageTracker = _gat._getTracker("UA-12887426-1");
+                pageTracker._trackPageview();
+            } catch (err) { }
+    </script>
+</body>
+</html>
