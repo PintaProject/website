@@ -2,7 +2,7 @@
 
 ## Mailing List
 
-You can join Pinta's mailing list on Google groups:
+You can join Pinta's mailing list on Google Groups:
 
 [Pinta Project Mailing List][1]
 
