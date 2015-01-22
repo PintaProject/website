@@ -38,7 +38,7 @@ Given a URL like **pinta-project.com/releases**, content will be searched for in
 If you would like to propose changes to the Pinta website, simply send a GitHub
 pull request on this repository for Pinta admins to process!
 
-Once accepted, the server updates its cache from GitHub every 30 minutes, so there
+Once accepted, the web server updates its cache from GitHub every 30 minutes, so there
 will be a slight delay before changes go live.
 
 [1]: http://commonmark.org/
