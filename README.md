@@ -16,7 +16,7 @@ be written in HTML if advanced features are needed.
 
 New URLs are created simply by adding a new .md or .html file to the Content directory.
 
-For example, to create **pinta-project.com/new-page**, simply add a file called
+For example, to create **pinta-project.com/new-page**, add a file called
 ***new-page.md*** or ***new-page.html*** to the Content directory.  
 
 You can also create hierarchy by adding directories to the Content directory.  
