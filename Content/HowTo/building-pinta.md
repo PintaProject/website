@@ -50,31 +50,31 @@ For a list of more make commands, run:
 
 Follow the below instructions to compile Pinta from GitHub on your Ubuntu system.
 
-1. Install build development tools
+Install build development tools:
 
 `sudo apt-get build-dep pinta`
 
-2. Install git version control system
+Install git version control system:
 
 `sudo apt-get install git`
 
-3. Download program's source code
+Download program's source code:
 
 `git clone https://github.com/PintaProject/Pinta.git Pinta`
 
-4. Change directory to Pinta
+Change directory to Pinta:
 
 `cd Pinta`
 
-5. Automatic build system preparation
+Automatic build system preparation:
 
 `./autogen.sh`
 
-6. Compile the code
+Compile the code:
 
 `make`
 
-7. Run Pinta
+Run Pinta:
 
 `make install`
 
