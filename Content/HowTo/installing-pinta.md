@@ -67,42 +67,6 @@ Here is the command to extract the files via the terminal, be sure you are in th
 
 `tar -zxf pinta-VERSION.tar.gz`
 
-## Using GitHub
-
-**Ubuntu Oneiric**
-
-*Ubuntu 11.10 Oneiric Ocelot uses a newer version of Mono than previous versions.*
-
-Follow the below instructions to compile Pinta from GitHub on your Ubuntu 11.10 Oneiric Ocelot system.
-
-1. Install build development tools
-
-`sudo apt-get build-dep pinta`
-
-2. Install git version control system
-
-`sudo apt-get install git`
-
-3. Download program's source code
-
-`git clone https://github.com/PintaProject/Pinta.git Pinta`
-
-4. Change directory to Pinta
-
-`cd Pinta`
-
-5. Automatic build system preparation
-
-`./autogen.sh`
-
-6. Compile the code
-
-`make`
-
-7. Run Pinta
-
-`make run`
-
 [1]: http://help.launchpad.net/Packaging/PPA
 [2]: http://beginlinux.com/twitter/1094-the-beginners-guide-to-the-ubuntu-terminal
 [3]: http://pinta-project.com/releases
