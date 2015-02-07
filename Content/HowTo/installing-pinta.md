@@ -4,46 +4,43 @@ Pinta can be installed on Linux, Mac or Windows. Due to this, there are multiple
 
 This document will show you the multiple ways to install Pinta.
 
-## Linux
+## Installing Pinta on Ubuntu
+### Install Pinta from default Ubuntu repository
+Pinta is available in default Ubuntu repository. You can install it using:
 
-### Pinta Repository
+* Click on Ubuntu Software Center from Launcher (left site icon panel).
+* At the top rigth input box type in: Pinta and press Enter.
+* Pinta is displayed in list bellow. Click on it and click the Install button.
 
-Pinta is available in a software repository, or PPA. In an Ubuntu-based Linux distribution it is very easy to add a new PPA to your software repository lists to install new software or provide system updates.
+But Pinta from default Ubuntu repository can be an old version, so you may want to install more recent version of Pinta from Pinta maintainers PPA repository. See bellow.
 
-*For more information on PPA's [click here][1].*
+### Install Pinta from Pinta maintainers PPA repository using graphical user interface (for begginers)
+Software in default Ubuntu repository can be out of date. Pinta maintainers offer newer versions in [software repository named PPA][1]. In an Ubuntu it is very easy to add a new PPA to your software repository lists to install new software or provide system updates.
 
-After installing a repository one of the easiest ways to install almost any application is to use the Ubuntu Software Center. If you already have this in your repository list continue to Installing Pinta via the Ubuntu Software Center.
+* Click on Ubuntu Software Center from Launcher (left site icon panel).
+* From menu Edit click on Software Sources.
+* Click on Other Software tab.
+* From the bottom of dialog click on Add button.
+* Paste: deb http://ppa.launchpad.net/pinta-maintainers/pinta-daily/ubuntu *ubuntu_version* main
+* Note: Instead of *ubuntu_version* use: precise for Ubuntu 12.04, trusty for Ubuntu 14.04, utopic for Ubuntu 14.10 or vivid for Ubuntu 15.04.
+* Click on Close button and then in right top input box type in Pinta and from listed application click Install button at Pinta program.
 
-Copy, one line at a time, to install the following PPA to get the latest stable release and paste them in a terminal and press ENTER:
+### Install Pinta from Pinta maintainers PPA repository using terminal (for advance users)
 
-*Is the Ubuntu terminal something new to you? [Click here to learn more on how to use the Ubuntu terminal][2].*
-
-**Ubuntu Precise**
+Open terminal with CTRL+ALT+T
+Add Pinta stable PPA repository:
 
 `sudo add-apt-repository ppa:pinta-maintainers/pinta-stable`
 
-Once you've installed the above PPA, then you must update you system with their package lists. Run the following command:
+Note: Instead of *pinta-stable* you can add *pinta-daily* if you like to test latest and the greatest Pinta, but it may be buggy.
+
+Update system package lists:
 
 `sudo apt-get update`
 
-Once you have a PPA setup with Pinta on it and have updated your package list, you are now ready to install Pinta.
-
-### Installing Pinta via the Terminal
-
-After the PPA has been setup (see above), you can install Pinta.
-
-You can easily install Pinta from the terminal with this command:
+Install pinta:
 
 `sudo apt-get install pinta`
-
-### Installing Pinta via the Ubuntu Software Center
-
-Once you have the PPA's setup and your system updated with their package list, now we can install Pinta via the Ubuntu Software Center:
-
-* Launch the Ubuntu Software Center
-* Search for "pinta"
-* Click the 'Install' button to install Pinta.
-* Once it is installed you can now use Pinta. Navigate to: Menu > Graphics > Pinta (This is the default location in most menu systems. Your results may vary.)
 
 ## Using the Tarball
 
