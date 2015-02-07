@@ -48,9 +48,7 @@ For a list of more make commands, run:
 
 ### Building Pinta on Ubuntu
 
-*Ubuntu 11.10 Oneiric Ocelot uses a newer version of Mono than previous versions.*
-
-Follow the below instructions to compile Pinta from GitHub on your Ubuntu 11.10 Oneiric Ocelot system.
+Follow the below instructions to compile Pinta from GitHub on your Ubuntu system.
 
 1. Install build development tools
 
@@ -78,7 +76,7 @@ Follow the below instructions to compile Pinta from GitHub on your Ubuntu 11.10 
 
 7. Run Pinta
 
-`make run`
+`make install`
 
 
 ## Building Pinta on Windows & Mac
