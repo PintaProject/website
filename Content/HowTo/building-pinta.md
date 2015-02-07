@@ -46,6 +46,41 @@ For a list of more make commands, run:
 
 `make help`
 
+### Building Pinta on Ubuntu
+
+*Ubuntu 11.10 Oneiric Ocelot uses a newer version of Mono than previous versions.*
+
+Follow the below instructions to compile Pinta from GitHub on your Ubuntu 11.10 Oneiric Ocelot system.
+
+1. Install build development tools
+
+`sudo apt-get build-dep pinta`
+
+2. Install git version control system
+
+`sudo apt-get install git`
+
+3. Download program's source code
+
+`git clone https://github.com/PintaProject/Pinta.git Pinta`
+
+4. Change directory to Pinta
+
+`cd Pinta`
+
+5. Automatic build system preparation
+
+`./autogen.sh`
+
+6. Compile the code
+
+`make`
+
+7. Run Pinta
+
+`make run`
+
+
 ## Building Pinta on Windows & Mac
 
 On Windows and Mac, you open Pinta.sln with Monodevelop, SharpDevelop or Visual Studio and build from there. To build the Windows installer you can use Visual Studio with the Votive plugin to build the WiX project.
