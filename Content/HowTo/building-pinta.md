@@ -10,7 +10,9 @@ Building Pinta requires the following software:
 
 `mono mono-xbuild automake autoconf libmono-cairo2.0-cil gtk-sharp2`
 
-Pinta only supports version 2.8 or higher of Mono.
+Pinta only supports version 2.8 or higher of Mono. Ubuntu 14.04 for example ships Mono 3.2.8. To check the version of Mono execute command:
+
+`mono -V`
 
 To build Pinta, run:
 
