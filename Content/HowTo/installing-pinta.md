@@ -18,16 +18,6 @@ Copy, one line at a time, to install the following PPA to get the latest stable 
 
 *Is the Ubuntu terminal something new to you? [Click here to learn more on how to use the Ubuntu terminal][2].*
 
-**Ubuntu Maverick, Natty & Oneiric**
-
-` sudo add-apt-repository ppa:pinta-maintainers/pinta-stable/ubuntu `
-
-Once you've installed the above PPA, then you must update you system with their package lists. Run the following command:
-
-`sudo apt-get update`
-
-Once you have a PPA setup with Pinta on it and have updated your package list, you are now ready to install Pinta.
-
 **Ubuntu Precise**
 
 `sudo add-apt-repository ppa:pinta-maintainers/pinta-stable`
