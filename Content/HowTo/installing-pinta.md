@@ -9,12 +9,12 @@ This document will show you the multiple ways to install Pinta.
 Pinta is available in default Ubuntu repository. You can install it using:
 
 * Click on Ubuntu Software Center from Launcher (left site icon panel).
-* At the top rigth input box type in: Pinta and press Enter.
+* At the top right input box type in: Pinta and press Enter.
 * Pinta is displayed in list bellow. Click on it and click the Install button.
 
 But Pinta from default Ubuntu repository can be an old version, so you may want to install more recent version of Pinta from Pinta maintainers PPA repository. See bellow.
 
-### Install Pinta from Pinta maintainers PPA repository using graphical user interface (for begginers)
+### Install Pinta from Pinta maintainers PPA repository using graphical user interface (for beginners)
 Software in default Ubuntu repository can be out of date. Pinta maintainers offer newer versions in [software repository named PPA][1]. In an Ubuntu it is very easy to add a new PPA to your software repository lists to install new software or provide system updates.
 
 * Click on Ubuntu Software Center from Launcher (left site icon panel).
@@ -46,7 +46,7 @@ Install pinta:
 
 A tarball is like a ZIP file. It is a single file with many files inside it. Like a ZIP file, it has to be extracted before you can use the files in them.
 
-First, you must download the tarball. Head on over to the [Download][3] page and click on the Download link under Tarball. Download the file where ever you'd like, just be sure you remember where.
+First, you must download the tarball. Head on over to the [Download][2] page and click on the Download link under Tarball. Download the file where ever you'd like, just be sure you remember where.
 
 Second, we need to extract it. You can either use your mouse to right-click on the Tarball file and select 'Extract here' or you can use the terminal if you are more comfortable with that.
 
@@ -55,5 +55,4 @@ Here is the command to extract the files via the terminal, be sure you are in th
 `tar -zxf pinta-VERSION.tar.gz`
 
 [1]: http://help.launchpad.net/Packaging/PPA
-[2]: http://beginlinux.com/twitter/1094-the-beginners-guide-to-the-ubuntu-terminal
-[3]: http://pinta-project.com/releases
+[2]: http://pinta-project.com/releases
