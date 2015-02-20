@@ -24,8 +24,8 @@ You can join Pinta's Facebook Page and Group:
 * Lead Maintainer: Cameron White &lt;cameronwhite91 at gmail dot com&gt;
 * Developer: Robert Nordan &lt;rpvn at robpvn dot net&gt;
 * Developer: Olivier Dufour &lt;olivier dot duff at gmail dot com&gt;
+* Developer (Project Founder): Jonathan Pobst &lt;monkey at jpobst dot com&gt;
 * Documentation & PR Editor: Johnathan Morlock &lt;johnathan underscore morlock at tsgcomputers dot net&gt;
-* Retired Core Maintainer: Jonathan Pobst &lt;monkey at jpobst dot com&gt;
 
 [1]: http://groups.google.com/group/pinta?hl=en
 [2]: http://www.facebook.com/pages/Pinta/249343198437410
