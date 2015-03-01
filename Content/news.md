@@ -1,5 +1,9 @@
 # News
 
+#### *01MAR15 at 18:47* by Cameron White
+
+[Pinta 1.6][10] has been released! Get it from the [downloads page][11] or view the [release notes][12].
+
 #### *24MAY14 at 18:45* by [Cameron White][1]
 
 Pinta 1.5 has been released! Release notes are available [here][2].
@@ -64,3 +68,6 @@ So strap in, things are only just now revving up, and prepare for an awesome rid
 [7]: http://github.com/PintaProject/Pinta
 [8]: http://www.facebook.com/pages/Pinta/249343198437410
 [9]: http://www.facebook.com/groups/198103533589299/
+[10]: https://github.com/PintaProject/Pinta/releases/tag/1.6
+[11]: releases
+[12]: releases/1-6
