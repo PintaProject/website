@@ -24,6 +24,7 @@
 
 ## Pinta Articles on Web
 
+- [Pinta Image Editor Sees New Stable Release][48] - webupd8.org (MAR 2015)
 - [Pinta (software)][4] - Wikipedia (2015)
 - [Pinta: A simple alternative to GIMP][22] - Linux Magazin (FEB 2015)
 - [2 Drawing Applications for MS Paint alternatives in Ubuntu][15] - DebugPoint (OCT 2014)
@@ -105,3 +106,4 @@
 [45]: https://www.youtube.com/watch?v=zhfiJOIbJMQ
 [46]: https://www.youtube.com/watch?v=TDcwAh2tcnA
 [47]: https://www.youtube.com/watch?v=z4on0o666ng
+[48]: http://www.webupd8.org/2015/03/pinta-image-editor-sees-new-stable.html
