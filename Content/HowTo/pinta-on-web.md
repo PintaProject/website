@@ -23,7 +23,10 @@
 <br />
 
 ## Pinta Articles on Web
-
+- [Pinta 1.6 Released! Install It In Ubuntu And Linux Mint][52] - itsfoss.com (MAR 2015)
+- [Pinta si aggiorna alla versione 1.6 (in Italian)][51] - lffl.org (MAR 2015)
+- [Релиз графического редактора Pinta 1.6, выступающего в роли аналога Paint.NET (in Russian)][50] - opennet.ru (MAR 2015)
+- [Вышла новая версия Pinta 1.6 (in Russian)][49] - linux.org.ru (MAR 2015)
 - [Pinta Image Editor Sees New Stable Release][48] - webupd8.org (MAR 2015)
 - [Pinta (software)][4] - Wikipedia (2015)
 - [Pinta: A simple alternative to GIMP][22] - Linux Magazin (FEB 2015)
@@ -107,3 +110,7 @@
 [46]: https://www.youtube.com/watch?v=TDcwAh2tcnA
 [47]: https://www.youtube.com/watch?v=z4on0o666ng
 [48]: http://www.webupd8.org/2015/03/pinta-image-editor-sees-new-stable.html
+[49]: https://www.linux.org.ru/news/opensource/11374486
+[50]: http://opennet.ru/opennews/art.shtml?num=41767
+[51]: http://www.lffl.org/2015/03/pinta-si-aggiorna-alla-versione-1-6.html
+[52]: http://itsfoss.com/pinta-1-6-ubuntu-linux-mint/
