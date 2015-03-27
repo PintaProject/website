@@ -132,6 +132,11 @@ img {
 	border: none;
 }
 
+.title {
+  font-weight: bold;
+  font-size: 13px;
+}
+
 /* Contains the Header */
 #HeaderDiv {
     height: 150px;
