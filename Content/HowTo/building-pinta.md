@@ -1,3 +1,4 @@
+{{TITLE:Building Pinta - Pinta}}
 # Building Pinta
 
 ## Building Pinta on Linux

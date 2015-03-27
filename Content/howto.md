@@ -1,3 +1,4 @@
+{{TITLE:Documentation - Pinta}}
 # Documentation
 
 ## User Documentation

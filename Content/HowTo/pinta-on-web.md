@@ -1,3 +1,4 @@
+{{TITLE:Pinta on the Web - Pinta}}
 # Pinta on Web
 
 ## Pinta One Minute Video Tutorials

@@ -1,3 +1,4 @@
+{{TITLE:News - Pinta}}
 # News
 
 #### *01MAR15 at 18:47* by Cameron White

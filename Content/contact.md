@@ -1,3 +1,4 @@
+{{TITLE:Contact - Pinta}}
 # Contact
 
 ## Mailing List

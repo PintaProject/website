@@ -1,3 +1,4 @@
+{{TITLE:Contribute - Pinta}}
 # Contribute
 
 ## Bug Reports / Feature Requests

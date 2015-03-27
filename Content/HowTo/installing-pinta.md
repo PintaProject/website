@@ -1,3 +1,4 @@
+{{TITLE:Installing Pinta - Pinta}}
 # Installing Pinta
 
 Pinta can be installed on Linux, Mac or Windows. Due to this, there are multiple ways to install Pinta based on what you are using as your operating system.
