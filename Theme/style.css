@@ -78,6 +78,12 @@ h2 {
 	margin-bottom: 8px;
 }
 
+h2.noline {
+  border-bottom: none;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
 ul, ol {
 	margin: 0px;
 	padding-top: 0px;
