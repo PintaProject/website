@@ -1,7 +1,7 @@
 {{TITLE:Installing Pinta - Pinta}}
 # Installing Pinta
 
-Pinta can be installed on Linux, Mac or Windows. Due to this, there are multiple ways to install Pinta based on what you are using as your operating system.
+Pinta can be installed on Linux, Mac, Windows, or *BSD. Due to this, there are multiple ways to install Pinta based on what you are using as your operating system.
 
 This document will show you the multiple ways to install Pinta.
 
@@ -13,7 +13,7 @@ Pinta is available in default Ubuntu repository. You can install it using:
 * At the top right input box type in: Pinta and press Enter.
 * Pinta is displayed in list bellow. Click on it and click the Install button.
 
-But Pinta from default Ubuntu repository can be an old version, so you may want to install more recent version of Pinta from Pinta maintainers PPA repository. See bellow.
+But Pinta from default Ubuntu repository can be an old version, so you may want to install more recent version of Pinta from Pinta maintainers PPA repository. See below.
 <br />
 ### Install Pinta from Pinta maintainers PPA repository using graphical user interface (for beginners)
 Software in default Ubuntu repository can be out of date. Pinta maintainers offer newer versions in [software repository named PPA][1]. In an Ubuntu it is very easy to add a new PPA to your software repository lists to install new software or provide system updates.
@@ -42,6 +42,29 @@ Update system package lists:
 Install pinta:
 
 `sudo apt-get install pinta`
+<br />
+## Installing Pinta on *BSD
+### FreeBSD and DragonFly BSD
+Pinta is available in FreeBSD and DragonFly BSD ports.
+
+You can install the binary package using:
+
+`sudo pkg install pinta`
+
+or compile it using:
+
+`cd /usr/ports/graphics/pinta && sudo make install clean`
+<br />
+### OpenBSD
+Pinta is available in OpenBSD ports.
+
+You can install the binary package using:
+
+`sudo pkg_add pinta`
+
+or compile it using:
+
+`cd /usr/ports/graphics/pinta && sudo make install`
 <br />
 ## Using the Tarball
 
