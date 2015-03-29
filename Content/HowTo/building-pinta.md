@@ -1,7 +1,7 @@
 {{TITLE:Building Pinta - Pinta}}
 # Building Pinta
 
-## Building Pinta on Linux
+## Building Pinta on Linux or *BSD
 
 On Linux you can build Pinta on two ways: Either you can build by opening Pinta.sln in MonoDevelop and building from there, or you can use the makefile. When using the makefile you can install Pinta directly in to the default directory or specify a directory.
 
