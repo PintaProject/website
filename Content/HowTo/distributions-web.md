@@ -1,16 +1,16 @@
 #Distribution's official web pages about Pinta
 
 ##BSD distributions
-[FreeBSD][1]<br>
-[OpenBSD][2]
+- [FreeBSD][1]
+- [OpenBSD][2]
 
 ##Linux distributions
-[Arch Linux][3]<br>
-[Debian][4]<br>
-[Fedora][5]<br>
-[Linux Mint][6]<br>
-[openSuse][7]<br>
-[Ubuntu][8]
+- [Arch Linux][3]
+- [Debian][4]
+- [Fedora][5]
+- [Linux Mint][6]
+- [openSUSE][7]
+- [Ubuntu][8]
 
 [1]: http://www.freshports.org/graphics/pinta/
 [2]: http://openports.se/graphics/pinta
