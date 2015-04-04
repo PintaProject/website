@@ -3,20 +3,20 @@
 ##BSD distributions
 <table>
     <tr>
-        <td align="center"><img src="/Releases/gcImages/freebsd.png"><br>[FreeBSD][1]</td>
-        <td align="center"><img src="/Releases/gcImages/openbsd.png"><br>[OpenBSD][2]</td>        
+        <td align="center"><img src="Releases/Images/freebsd.png"><br>[FreeBSD][1]</td>
+        <td align="center"><img src="Releases/Images/openbsd.png"><br>[OpenBSD][2]</td>        
     </tr>
 </table>
 
 ##Linux distributions
 <table>
     <tr>
-        <td align="center"><img src="/Releases/gcImages/archlinux.png"><br>[Arch Linux][3]</td>
-        <td align="center"><img src="/Releases/gcImages/debian.png"><br>[Debian][4]</td>        
-        <td align="center"><img src="/Releases/gcImages/fedora.png"><br>[Fedora][5]</td>                
-        <td align="center"><img src="/Releases/gcImages/linuxmint.png"><br>[Linux Mint][6]</td>        
-        <td align="center"><img src="/Releases/gcImages/opensuse.png"><br>[openSUSE][7]</td>
-        <td align="center"><img src="/Releases/gcImages/ubuntu.png"><br>[Ubuntu][8]</td>
+        <td align="center"><img src="Releases/Images/archlinux.png"><br>[Arch Linux][3]</td>
+        <td align="center"><img src="Releases/Images/debian.png"><br>[Debian][4]</td>        
+        <td align="center"><img src="Releases/Images/fedora.png"><br>[Fedora][5]</td>                
+        <td align="center"><img src="Releases/Images/linuxmint.png"><br>[Linux Mint][6]</td>        
+        <td align="center"><img src="Releases/Images/opensuse.png"><br>[openSUSE][7]</td>
+        <td align="center"><img src="Releases/Images/ubuntu.png"><br>[Ubuntu][8]</td>
     </tr>
 </table>
 
