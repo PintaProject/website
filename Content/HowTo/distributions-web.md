@@ -1,25 +1,16 @@
 # Distribution's official web pages about Pinta
 
 ## BSD distributions
-<table>
-    <tr>
-        <td align="center"><img src="Releases/Images/freebsd.png"><br>[FreeBSD][1]</td>
-        <td align="center"><img src="Releases/Images/openbsd.png"><br>[OpenBSD][2]</td>        
-    </tr>
-</table>
+<img src="/releases/images/freebsd.png"> [FreeBSD][1]
+<img src="/releases/images/openbsd.png"> [OpenBSD][2]
 
 ## Linux distributions
-<table>
-    <tr>
-        <td align="center"><img src="Releases/Images/archlinux.png"><br>[Arch Linux][3]</td>
-        <td align="center"><img src="Releases/Images/debian.png"><br>[Debian][4]</td>        
-        <td align="center"><img src="Releases/Images/fedora.png"><br>[Fedora][5]</td>                
-        <td align="center"><img src="Releases/Images/linuxmint.png"><br>[Linux Mint][6]</td>        
-        <td align="center"><img src="Releases/Images/opensuse.png"><br>[openSUSE][7]</td>
-        <td align="center"><img src="Releases/Images/ubuntu.png"><br>[Ubuntu][8]</td>
-    </tr>
-</table>
-
+<img src="/releases/images/archlinux.png"> [Arch Linux][3]
+<img src="/releases/images/debian.png"> [Debian][4]
+<img src="/releases/images/fedora.png"> [Fedora][5]
+<img src="/releases/images/linuxmint.png"> [Linux Mint][6]
+<img src="/releases/images/opensuse.png"> [openSUSE][7]
+<img src="/releases/images/ubuntu.png"> [Ubuntu][8]
 
 [1]: http://www.freshports.org/graphics/pinta/
 [2]: http://openports.se/graphics/pinta
