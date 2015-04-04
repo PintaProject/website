@@ -1,6 +1,6 @@
-#Distribution's official web pages about Pinta
+# Distribution's official web pages about Pinta
 
-##BSD distributions
+## BSD distributions
 <table>
     <tr>
         <td align="center"><img src="Releases/Images/freebsd.png"><br>[FreeBSD][1]</td>
@@ -8,7 +8,7 @@
     </tr>
 </table>
 
-##Linux distributions
+## Linux distributions
 <table>
     <tr>
         <td align="center"><img src="Releases/Images/archlinux.png"><br>[Arch Linux][3]</td>
