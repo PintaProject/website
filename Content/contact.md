@@ -14,12 +14,6 @@ You can join Pinta's Facebook Page and Group:
 * [Pinta Facebook Page][2]
 * [Pinta Facebook Group][3]
 
-## IRC
-
-**Network:** Gimpnet (servers: irc.gnome.org, irc.gimp.net)
-
-**Channel:** #pinta
-
 ## Project Team
 
 * Lead Maintainer: Cameron White &lt;cameronwhite91 at gmail dot com&gt;
