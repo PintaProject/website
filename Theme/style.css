@@ -1,390 +1,125 @@
-
-body {
-    background: #616D7F url(Images/pattern1.png) repeat;
-	  font-family: Verdana, Arial, Helvetica, sans-serif;
-    margin: 15px 0;
-    padding-bottom: 10px;
-    font-size: 12px;
-    color: #444444;
-}
-
-p {
-	font-size: 12px;
-}
-
-input, label {
-	font-size: 12px;
-	padding: 2px;
-	margin: 0px;
-}
-
-select {
-	font-size: 12px;
-	margin: 0px;
-}
-
-/* General purpose links */
-a {
-	color: #214C9A;
-	text-decoration: none;
-}
-a:hover {
-	color: #D9671E;
-	text-decoration: underline;
-}
-
-hr
+/* Home page hero box */
+.jumbotron
 {
-    color: #cccccc;
-    background-color: #cccccc;
-    height: 1px;
-    border-width: 0px;
+    line-height: 24px;
+    padding: 20px;
+    margin: 0 auto 15px auto;
+    width: 1000px;
+    background-color: #FFF;
+    overflow-y: hidden;
+    border: solid 1px #CDCDCD;
 }
 
-h1 {
-	font-size: 18px;
-	padding: 0px;
-	margin: 0px;
-	font-weight: bold;
+.hero-image-div
+{
+    margin-left: 50px;
+    margin-right: 15px;
+    margin-top: 7px;
+    width: 450px;
 }
 
-h2 {
-	font-size: 16px;
-	padding: 0px;
-	margin: 0px;
-	font-weight: bold;
+.hero-image
+{
+    border-radius: 3px;
+    border: solid 1px #CDCDCD;
+}
+
+.jumbotron h1
+{
+    font-size: 30px;
+    font-weight: bold;
+    border-bottom: none;
+    margin-top: 5px;
+    padding-bottom: 0;
+}
+
+.jumbotron p
+{
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.jumbotron p a.btn
+{
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin-top: 20px;
 }
 
-h3 {
-	font-size: 13px;
-	padding: 0px;
-	margin: 0 0 10px 0;
-	font-weight: bold;
-}
-
-h4 {
-	font-size: 12px;
-	padding: 0px;
-	margin: 0px;
-	font-weight: bold;
-	font-style: italic;
-}
-
-/* Class for applying a separator under H elements (useful to avoid usage of HR) */
-h2 {
-	border-bottom: solid 1px #CCCCCC;
-	padding-bottom: 2px;
-	margin-bottom: 8px;
-}
-
-h2.noline {
-  border-bottom: none;
-  font-size: 14px;
-  margin-bottom: 4px;
-}
-
-ul, ol {
-	margin: 0px;
-	padding-top: 0px;
-	padding-bottom: 0px;
-	padding-left: 28px;
-	padding-right: 8px;
-	font-size: 12px;
-	color: #555555;
-}
-
-li {
-	margin: 2px 0px 0px 0px;
-	padding: 0px;
-}
-
-code, pre {
-	font-family: Courier New, Lucida Console, Monospace;
-	padding: 0px;
-	margin: 0px;
-}
-
-pre {
-	background-color: #FFFFF0;
-	margin: 0px 10px 0px 10px;
-	padding: 8px;
-	border: solid 1px #DDDDDD;
-	overflow: auto;
-}
-
-html>body pre {
-	/* Fix for IE7 - unwanted horizontal scrollbar */
-	overflow-x: auto;
-	overflow-y: hidden;
-	padding-bottom: expression(this.scrollWidth > this.offsetWidth ? 19 : 8);
-}
-
-table, div {
-	padding: 0px;
-	margin: 0px;
-}
-
-th {
-	background-color: #CCCCCC;
-	font-weight: bold;
-	margin: 0px;
-	padding: 2px 5px 2px 5px;
-	border-bottom: solid 1px #999999;
-	white-space: nowrap;
-}
-
-img {
-	border: none;
-}
-
-.title {
-  font-weight: bold;
-  font-size: 13px;
-}
-
-/* Contains the Header */
-#HeaderDiv {
-    height: 150px;
-    width: 870px;
-}
-
-/* Contains the SidebarDiv and the MainDiv */
-#ContainerDiv {
-    width: 870px;
-    min-height: 500px;
-    margin: 0 auto;
-    position: relative;
-    text-align: left;
-    background: transparent url(Images/sideshadow.png) repeat-y left;
-}
-
-#content-container
+.jumbotron span
 {
-    margin: 0 7px;
-    background-image: url(Images/bg2.jpg);
-    background-repeat: no-repeat;
-}
-
-#topmenu
-{
-    color: White;
-    height: 30px;
     font-size: 12px;
-    line-height: 16px;
+}
+
+/* Home page feature boxes */
+.feature-container
+{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+        font-family: "Open Sans",HelveticaNeue,Helvetica,Arial;
+
+}
+
+.feature-box
+{
+    height: 310px;
+    width: 323px;
+    margin-left: 15px;
+}
+
+.feature-box .box-header .title
+{
     font-weight: bold;
-    padding: 0px 0px 0px 10px;
-    margin-right: 1px;
-    background: transparent;
-    margin-top: -30px;
+    font-size: 14px;
 }
 
-#topmenu ul
-{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-#topmenu li
-{
-    float: right;
-    height: 28px;
-    padding: 2px 5px 0px 5px;
-    margin-right: 5px;
-}
-
-#topmenu li:hover
-{
-    background-color: #326A9A;
-    background-color: #5084C5;
-}
-
-#topmenu a
-{
-    display: block;
-    padding: 0px 0px 0px 0px;
-    font-weight: bold;
-    color: #FFF;
-}
-
-#topmenu a:hover
-{
-    text-decoration: none;
-}
-
-#topmenu a img
-{
-    margin: 0px 0px 0px 0px;
-}
-
-/* Contains the contents of a Page */
-#MainDiv {
-    padding: 10px 20px 0 20px;
-    border-top: 2px solid #3B4B64;
-}
-
-blockquote {
-	border-left: solid 8px #DDDDDD;
-	margin-left: 16px;
-	padding: 0px 0px 2px 6px;
-}
-
-.content-bottom {
-    position: absolute;
-    left: 0;
-    bottom: -20px;
-    width: 862px;
-    height: 20px;
-    background: url(Images/bottomshadow.png) no-repeat left bottom;
-    z-index: 0;
-}
-
-#MainFooterDiv
-{
-    font-size: 11px;
-    height: 30px;
-    margin-top: 15px;
-}
-
-h1
-{
-    font-size: 20px;
-    font-weight: bold;
-    line-height: 2em;
-    margin-bottom: 10px;
-}
-
-.features
-{
-    font-size: 20px;
-    font-weight: bold;
-    line-height: 2em;
-}
-
-.feature-column
+.feature-list
 {
     width: 275px;
     line-height: 15px;
 }
 
-.feature-column img
+.feature-list img
 {
     margin-top: 10px;
+    float: left;
+    margin-right: 10px;
 }
 
-img
+.feature-list div.title
 {
-    border: 0px;
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 4px;
 }
 
-#marquee
+.feature
 {
-    height: 175px;
-    width: 840px;
-    padding: 10px 0 15px 15px;
-    border-top: 1px solid #CCCCCC;
-    border-bottom: 1px solid #CCCCCC;
-    background-color: #EEEEEE;
-    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-#marquee img
+/* Home page resources box */
+ul.resource-list
 {
-    margin: 10px 0px 10px 30px;
-    width: 230px;
+    font-size: 14px;
+    font-weight: normal;
+    padding-left: 0;
 }
 
-.button2 {
-  display: block;
-  display: inline-block;
-  border-radius: 5px;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
-  -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
-  filter: "progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=2px, Color='rgba(0, 0, 0, 0.5)')";
-  -ms-filter: "\"progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=2px, Color='rgba(0, 0, 0, 0.5)')\"";
-  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
-  -moz-text-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
-  -webkit-text-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
-  filter: dropshadow(color=rgba(0, 0, 0, 0.5), offX=0, offY=2px) glow(color=rgba(0, 0, 0, 0.5), strength=2px);
-  font-family: "RaveIn Condensed", Avenir, Prelude, sans-serif;
-  background-image: url(Images/button-shade.png);
-  background-repeat: repeat-x;
-  background-position: 0 0;
-  border-width: 1px;
-  border-style: solid;
-  text-align: center;
-  font-weight: bold;
-  color: white;
-  background-color: #3465a4;
-  border: 1px solid #22416a;
-  padding: 2px 6px;
-  user-select: none;
-  -webkit-user-select: none;
-  -moz-user-select: none; }
-  .button2:active {
-    background-image: none;
-    text-shadow: none;
-    -moz-text-shadow: none;
-    -webkit-text-shadow: none;
-    box-shadow: none;
-    -moz-box-shadow: none;
-    -webkit-box-shadow: none; }
-  .button2:hover {
-    color: white; }
-
-.download
+.resource-list li
 {
-    margin: 10px 0 5px;
-    padding: 6px 30px;
-    font-size: 200%;
-    border-radius: 15px;
-    -moz-border-radius: 15px;
-    -webkit-border-radius: 15px;
-    position: relative;
+    margin-bottom: 8px;
 }
 
-.download span
-{
-      display: block;
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      border: 1px solid rgba(255, 255, 255, 0.3);
-      border-radius: 14px;
-      -moz-border-radius: 14px;
-      -webkit-border-radius: 14px;
-}
-
-.download:hover
-{
-    text-decoration: none;
-}
-
-.download-box
-{
-    padding: 15px 40px 15px 10px;
-}
-
+/* Releases page */
 .left-column
 {
     width: 375px;
     position: relative;
     padding: 0 30px 0 0;
     float: left;
-}
-
-.right-column
-{
-    width: 375px;
-    position: relative;
-    float: right;
-    padding: 0;
 }
 
 .left-column img
@@ -397,7 +132,6 @@ img
 {
     margin: 4px 0 0 49px;
     height: 85px;
-    font-size: 11px;
     color: #484848;
 }
 
@@ -406,6 +140,18 @@ img
     font-size: 12px;
 }
 
+.left-column table tbody tr, .left-column table tbody td
+{
+    border: none;
+}
+
+/* All content pages */
+.features
+{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 2em;
+}
 
 .clearer
 {
