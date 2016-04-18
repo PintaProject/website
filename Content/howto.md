@@ -7,6 +7,7 @@
 
 ## Developer Documentation
 
+- [Contributing to Pinta][7]
 - [Building Pinta][2]
 - [Writing an Extension][3]
 
@@ -22,3 +23,4 @@ Suggestions on new documentation can be mailed to the [Pinta Google Group][4].
 [4]: mailto:pinta@googlegroups.com
 [5]: howto/pinta-on-web
 [6]: howto/distributions-web
+[7]: contribute
