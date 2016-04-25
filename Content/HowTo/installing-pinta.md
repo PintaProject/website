@@ -14,7 +14,7 @@ Pinta is available in default Ubuntu repository. You can install it using:
 * Pinta is displayed in list bellow. Click on it and click the Install button.
 
 But Pinta from default Ubuntu repository can be an old version, so you may want to install more recent version of Pinta from Pinta maintainers PPA repository. See below.
-<br />
+
 ### Install Pinta from Pinta maintainers PPA repository using graphical user interface (for beginners)
 Software in default Ubuntu repository can be out of date. Pinta maintainers offer newer versions in [software repository named PPA][1]. In an Ubuntu it is very easy to add a new PPA to your software repository lists to install new software or provide system updates.
 
@@ -25,8 +25,8 @@ Software in default Ubuntu repository can be out of date. Pinta maintainers offe
 * Paste: deb http://ppa.launchpad.net/pinta-maintainers/pinta-daily/ubuntu *ubuntu_version* main
 * Note: Instead of *ubuntu_version* use: precise for Ubuntu 12.04, trusty for Ubuntu 14.04, utopic for Ubuntu 14.10 or vivid for Ubuntu 15.04.
 * Click on Close button and then in right top input box type in Pinta and from listed application click Install button at Pinta program.
-<br />
-### Install Pinta from Pinta maintainers PPA repository using terminal (for advance users)
+
+### Install Pinta from Pinta maintainers PPA repository using terminal (for advanced users)
 
 Open terminal with CTRL+ALT+T
 Add Pinta stable PPA repository:
