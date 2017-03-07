@@ -23,7 +23,7 @@ Software in default Ubuntu repository can be out of date. Pinta maintainers offe
 * Click on Other Software tab.
 * From the bottom of dialog click on Add button.
 * Paste: deb http://ppa.launchpad.net/pinta-maintainers/pinta-daily/ubuntu *ubuntu_version* main
-* Note: Instead of *ubuntu_version* use: precise for Ubuntu 12.04, trusty for Ubuntu 14.04, utopic for Ubuntu 14.10 or vivid for Ubuntu 15.04.
+* Note: Instead of *ubuntu_version* use: precise for Ubuntu 12.04, trusty for Ubuntu 14.04, xenial for Ubuntu 16.04 or yakkety for Ubuntu 16.10.
 * Click on Close button and then in right top input box type in Pinta and from listed application click Install button at Pinta program.
 
 ### Install Pinta from Pinta maintainers PPA repository using terminal (for advanced users)
