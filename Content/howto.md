@@ -4,7 +4,7 @@
 ## User Documentation
 
 - [Installing Pinta][1]
-- [Pinta User Guide](https://pintaproject.github.io/user-guide/)
+- [Pinta User Guide][8]
 
 ## Developer Documentation
 
@@ -25,3 +25,4 @@ Suggestions on new documentation can be mailed to the [Pinta Google Group][4].
 [5]: howto/pinta-on-web
 [6]: howto/distributions-web
 [7]: contribute
+[8]: https://pintaproject.github.io/user-guide/ 
