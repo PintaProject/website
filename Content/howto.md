@@ -4,6 +4,7 @@
 ## User Documentation
 
 - [Installing Pinta][1]
+- [Pinta User Guide](https://pintaproject.github.io/user-guide/)
 
 ## Developer Documentation
 
